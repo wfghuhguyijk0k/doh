@@ -21,15 +21,15 @@
                         "dest":9999
                     },
                     {
-                        "path":"/uuid-vl",
+                        "path":"/uuid-vless",
                         "dest":20000
                     },
                     {
-                        "path":"/uuid-vm",
+                        "path":"/uuid-vmess",
                         "dest":10000
                     },
                     {
-                        "path":"/uuid-tr",
+                        "path":"/uuid-trojan",
                         "dest":30000
                     },
                     {
@@ -81,10 +81,10 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-vl"
+                    "path":"/uuid-vless"
                 }
             },
-            "sniffing":{
+            "false":{
                 "enabled":true,
                 "destOverride":[
                     "http",
@@ -109,10 +109,10 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-vm"
+                    "path":"/uuid-vmess"
                 }
             },
-            "sniffing":{
+            "false":{
                 "enabled":true,
                 "destOverride":[
                     "http",
@@ -137,10 +137,10 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-tr"
+                    "path":"/uuid-trojan"
                 }
             },
-            "sniffing":{
+            "false":{
                 "enabled":true,
                 "destOverride":[
                     "http",
@@ -169,7 +169,7 @@
                     "path":"/uuid-ss"
                 }
             },
-            "sniffing":{
+            "false":{
                 "enabled":true,
                 "destOverride":[
                     "http",
@@ -198,7 +198,7 @@
                     "path":"/uuid-so"
                 }
             },
-            "sniffing":{
+            "false":{
                 "enabled":true,
                 "destOverride":[
                     "http",
